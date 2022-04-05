@@ -1,7 +1,8 @@
 from django.urls import path
-from .views import save_pics, train_model, face_recognition
+from .views import save_pics, train_model, face_recognition, user_signup
 urlpatterns = [
     path('save-pics', save_pics, name='save-pics'), 
     path('train-model', train_model, name='train-model'), 
-    path('face-recognition', face_recognition, name='face-recognition')
+    path('face-recognition', face_recognition, name='face-recognition'), 
+    path('user-signup', user_signup, name='user-signup')
 ]
