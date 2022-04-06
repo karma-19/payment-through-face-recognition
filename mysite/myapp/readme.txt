@@ -1,5 +1,7 @@
 my app 
 
+### add a folder 'dataset' in 'myapp' folder
+
 ### how to run
 step 1: pip install requirement.txt
 step 2: python manage.py makemigrations
